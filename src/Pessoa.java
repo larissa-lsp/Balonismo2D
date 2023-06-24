@@ -1,16 +1,8 @@
 public class Pessoa {
-
     String nome;
-    int RG;
-    int CPF;
+    String cpf;
+    String rg;
     int telefone;
-    int telFamilia;
-
-    String rua;
-    String cidade;
-    String estado;
-
-    public void pesquisarEmpresa(){
-
-    }
+    int telefoneContatoFamiliar;
+    String endereco;
 }
