@@ -3,7 +3,7 @@ import java.util.List;
 public class PasseioDeBalao {
         Piloto piloto;
         Balao balao;
-        TermoCiencia TermoCiencia;
+        TermoCienciaRisco termoCienciaRisco;
         List<Pessoa> passageiros;
 
     public void iniciarPasseio() {
