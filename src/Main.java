@@ -7,15 +7,15 @@ public class Main {
         pessoa1.nome = "Regina";
         pessoa1.rg = "1234567890";
         pessoa1.cpf = "12345678910";
-        pessoa1.telefone = "940028922";
-        pessoa1.telefoneContatoFamiliar = "922982004";
+        pessoa1.telefone = 940028922;
+        pessoa1.telefoneContatoFamiliar = 922982004;
         pessoa1.endereco = "Rua Duarte, 19";
 
         pessoa2.nome = "Leandro";
         pessoa2.rg = "0987654321";
         pessoa2.cpf = "01987654321";
-        pessoa2.telefone = "966698909";
-        pessoa2.telefoneContatoFamiliar = "909896669";
+        pessoa2.telefone = 966698909;
+        pessoa2.telefoneContatoFamiliar = 909896669;
         pessoa2.endereco = "Rua Duarte, 19";
 
         // Criação do objeto Piloto
