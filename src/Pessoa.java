@@ -5,4 +5,14 @@ public class Pessoa {
     int telefone;
     int telefoneContatoFamiliar;
     String endereco;
+    boolean termoCienciaRisco;
+
+    String rua;
+    String numero;
+    String bairro;
+    String cidade;
+    String estado;
+
+    public void pesquisarEmpresa(){
+    }
 }
