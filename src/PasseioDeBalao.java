@@ -13,8 +13,7 @@ public class PasseioDeBalao {
         System.out.println("Passageiros:");
     }
 
-    public void adicionarPassageiro(Pessoa pessoa1) {
-
-        System.out.println("Passeando");
+    public void adicionarPassageiro(Pessoa p1) {
+        System.out.println("A bordo");
     }
 }
