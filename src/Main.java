@@ -1,18 +1,49 @@
 public class Main {
     public static void main(String[] args) {
-        Pessoa p1 = new Pessoa();
+        // Criação do objeto Pessoa
+        Pessoa  pessoa1 = new Pessoa();
+        Pessoa pessoa2 = new Pessoa();
 
-        Pessoa p2 = new Pessoa();
+        pessoa1.nome = "Regina";
+        pessoa1.rg = "1234567890";
+        pessoa1.cpf = "12345678910";
+        pessoa1.telefone = "940028922";
+        pessoa1.telefoneContatoFamiliar = "922982004";
+        pessoa1.endereco = "Rua Duarte, 19";
 
-        p1.nome = "Elane";
-        p2.nome = "Matteo";
+        pessoa2.nome = "Leandro";
+        pessoa2.rg = "0987654321";
+        pessoa2.cpf = "01987654321";
+        pessoa2.telefone = "966698909";
+        pessoa2.telefoneContatoFamiliar = "909896669";
+        pessoa2.endereco = "Rua Duarte, 19";
 
-        p1.rua = "Rua Di Cavalcanti";
-        p1.cidade = "Barueri";
-        p1.estado = "São Paulo";
+        // Criação do objeto Piloto
+        Piloto piloto = new Piloto();
 
-        p2.rua = "Rua Di Cavalcanti";
-        p2.cidade = "Barueri";
-        p2.estado = "São Paulo";
+        piloto.nome = "André";
+        piloto.cpf ="2371113151";
+        piloto.numRegistroANAC = "98765";
+
+        // Criação do objeto Balão
+        Balao balao = new Balao();
+
+        balao.numeroIdentificacao = "B002";
+        balao.registroRegularidade= "ABC123";
+
+        // Criação do objeto TermoCienciaRiscos
+        TermoCiencia termoCiencia = new TermoCiencia();
+
+        // Criação do obejto PasseioDeBalão
+        PasseioDeBalao passeio = new PasseioDeBalao();
+        passeio.piloto = piloto;
+        passeio.balao = balao;
+        passeio.TermoCiencia = termoCiencia;
+
+        passeio.adicionarPassageiro(pessoa1);
+        passeio.adicionarPassageiro(pessoa2);
+
+        // Iniciando o passeio de balão
+        passeio.iniciarPasseio();
     }
 }
