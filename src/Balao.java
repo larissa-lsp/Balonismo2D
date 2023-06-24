@@ -1,4 +1,6 @@
 public class Balao {
     String numeroIdentificacao;
-    String registroRegularidade;
+    Boolean registroRegularidade;
+    public void voar(){
+    }
 }
